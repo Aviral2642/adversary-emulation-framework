@@ -1,0 +1,7 @@
+targets:
+  - 127.0.0.1
+smtp:
+  server: smtp.example.com
+  port: 587
+  username: user@example.com
+  password: example-password

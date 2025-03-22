@@ -1,0 +1,8 @@
+name: APT29 Emulation
+steps:
+  - tactic: Initial-access
+    technique_id: T1566.001
+    module: recon
+  - tactic: Privilege-escalation
+    technique_id: T1068
+    module: privilege_escalation
