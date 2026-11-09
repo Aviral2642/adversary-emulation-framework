@@ -1,5 +1,7 @@
 # Adversary Emulation Framework
 
+> **Maintenance status:** Historical research code from 2025. The examples have not been revalidated against current platforms or dependencies. Current vulnerability research is published in [AI Infrastructure Security](https://github.com/Aviral2642/ai-infra-security); see the [public profile](https://github.com/Aviral2642) for recent work.
+
 **Adversary Emulation Framework (AEF)** is a fully functional red team toolkit designed to simulate real-world cyber threat behavior using the MITRE ATT&CK framework. This tool enables security professionals to evaluate and improve the resilience of their infrastructure by emulating threat actor tactics, techniques, and procedures (TTPs) in a controlled environment.
 
 ---
@@ -45,8 +47,9 @@ adversary-emulation-framework/
 ```bash
 git clone https://github.com/Aviral2642/adversary-emulation-framework.git
 cd adversary-emulation-framework
-chmod +x install.sh
-./install.sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ---
